@@ -1,0 +1,175 @@
+{
+  "valor": "Errores en Angular",
+  "hijos": [
+    {
+      "valor": "Error de compilación",
+      "hijos": [
+        {
+          "valor": "Error de sintaxis",
+          "hijos": [
+            {
+              "valor": "Revisar llaves, paréntesis o punto y coma"
+            },
+            {
+              "valor": "Corregir tipos en TypeScript"
+            }
+          ]
+        },
+        {
+          "valor": "Error de módulo",
+          "hijos": [
+            {
+              "valor": "Agregar componente en declarations"
+            },
+            {
+              "valor": "Importar módulo faltante"
+            }
+          ]
+        },
+        {
+          "valor": "Error de dependencias",
+          "hijos": [
+            {
+              "valor": "Ejecutar npm install"
+            },
+            {
+              "valor": "Verificar librerías instaladas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "valor": "Error en ejecución",
+      "hijos": [
+        {
+          "valor": "Error en consola",
+          "hijos": [
+            {
+              "valor": "Variable undefined o null",
+              "hijos": [
+                {
+                  "valor": "Inicializar variables correctamente"
+                },
+                {
+                  "valor": "Usar optional chaining (?.)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valor": "Error en servicios HTTP",
+          "hijos": [
+            {
+              "valor": "Falla en API",
+              "hijos": [
+                {
+                  "valor": "Revisar URL del endpoint"
+                },
+                {
+                  "valor": "Verificar backend"
+                },
+                {
+                  "valor": "Validar uso de HttpClient"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valor": "Problema con datos",
+          "hijos": [
+            {
+              "valor": "Datos no se muestran",
+              "hijos": [
+                {
+                  "valor": "Revisar suscripciones a Observables"
+                },
+                {
+                  "valor": "Usar async pipe"
+                },
+                {
+                  "valor": "Validar ngOnInit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "valor": "Problema de rendimiento",
+      "hijos": [
+        {
+          "valor": "Muchos datos en pantalla",
+          "hijos": [
+            {
+              "valor": "Implementar paginación"
+            },
+            {
+              "valor": "Usar trackBy en listas"
+            }
+          ]
+        },
+        {
+          "valor": "Demasiados renders",
+          "hijos": [
+            {
+              "valor": "Usar ChangeDetectionStrategy.OnPush"
+            }
+          ]
+        },
+        {
+          "valor": "Peticiones repetidas",
+          "hijos": [
+            {
+              "valor": "Evitar múltiples suscripciones"
+            },
+            {
+              "valor": "Usar shareReplay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "valor": "Problema visual (UI)",
+      "hijos": [
+        {
+          "valor": "Estilos no aplican",
+          "hijos": [
+            {
+              "valor": "Revisar CSS"
+            },
+            {
+              "valor": "Verificar encapsulación"
+            }
+          ]
+        },
+        {
+          "valor": "Componente no aparece",
+          "hijos": [
+            {
+              "valor": "Verificar uso en HTML"
+            },
+            {
+              "valor": "Revisar importación del componente"
+            }
+          ]
+        },
+        {
+          "valor": "Problemas con librerías UI",
+          "hijos": [
+            {
+              "valor": "Verificar imports"
+            },
+            {
+              "valor": "Validar estilos globales"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
